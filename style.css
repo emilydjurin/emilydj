@@ -6,6 +6,10 @@ body {
   width: 500px;
   margin: 0 auto;
 }
+#page-wrap {
+  width: 500px;
+  margin: 0 auto;
+}
 img {
       margin: 40px auto 0px auto;
       border: 10px solid #d1dbfe;
