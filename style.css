@@ -8,7 +8,7 @@ body {
    margin: 0 auto;
 }
 img {
-      margin: 40px 0px 0px 0px;
+      margin: 40px auto 0px auto;
       border: 10px solid #d1dbfe;
       border-radius: 600px;
       width:200px; 
