@@ -1,12 +1,11 @@
 body {
   font-family: TimesNewRoman;
   background: #7cb9e8;
-  color: white;
+  
   text-align: center;
 }
-
 img {
-      margin: 40px auto 0px auto;      
+      margin: 40px 0px 0px 0px;
       border: 10px solid #d1dbfe;
       border-radius: 600px;
       width:200px; 
@@ -15,9 +14,24 @@ img {
 h1 {
   font-size: 70px;
   margin-top: 0px;
-  
+  color: white;
+}
 p1 {
   font-weight: normal;
   color: white;
   font-size: 20px;
+}
+ul {
+    padding: 10px;
+ }
+li {
+    display: inline;
+    padding: 0px 50px 0px 50px;
+ }
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #6445bc;
 }
