@@ -3,13 +3,37 @@ body {
   background: #7cb9e8; 
   text-align: center;
 }
-img {
+
+header img {
       margin: 40px 0px 0px 0px;
       border: 10px solid #d1dbfe;
       border-radius: 600px;
       width:200px; 
       height: auto;
 }
+
+div.filmgallery {
+  margin: 20px;
+  float: left;
+  width: 300px;
+}
+
+div.desc {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+div.filmgallery:hover {
+  transform: scale(1.05);
+}
+
+div.filmgallery img {
+  width: 150px;
+  height: 200px;
+  border: 5px solid #d1dbfe;
+}
+
 h1 {
   font-size: 70px;
   margin-top: 0px;
@@ -38,12 +62,19 @@ a {
   color: white;
   text-decoration: none;
 }
-a:hover {
+ul a:hover {
   color: #6445bc;
   font-size: 18px;
 }
 
 h2 {
+  font-family: Chalkduster;
+  font-size: 40px;
+  margin-top: 0px;
+  color: #ffea9d;
+}
+
+h3 {
   font-family: Chalkduster;
   font-size: 40px;
   margin-top: 0px;
