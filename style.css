@@ -30,6 +30,13 @@ div.bookgallery {
   text-align: center;
 }
 
+div.musicgallery {
+  margin: 20px;
+  float: left;
+  width: 300px;
+  text-align: center;
+}
+
 div.desc {
   padding: 10px;
   text-align: center;
@@ -50,6 +57,16 @@ div.bookgallery img {
   width: 110px;
   height: 170px;
   border: 5px solid #d1dbfe;
+}
+
+div.musicgallery img {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #d1dbfe;
+}
+
+div.musicgallery:hover {
+  transform: scale(1.05);
 }
 
 div.bookgallery:hover {
