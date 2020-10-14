@@ -131,6 +131,13 @@ h4 {
   color: #ffea9d;
 }
 
+h5 {
+   font-family: Chalkduster;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #ffea9d;
+}
+
 h {
   font-family: Chalkduster;
   font-size: 20px;
@@ -163,3 +170,26 @@ div.books img {
   height: auto;
   border: 5px solid #d1dbfe;
 }
+
+div.text {
+  background-color: #ffea9d;
+  color: black;
+  font-size: 19px;
+  padding: 10px;
+}
+
+div.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.musicgallery:hover .middle {
+  opacity: 1;
+}
+
