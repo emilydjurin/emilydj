@@ -20,18 +20,21 @@ div.filmgallery {
   float: right;
   width: 33%;
   margin-top: 30px;
+  transition: .5s;
 }
 
 div.bookgallery {
   margin-top: 30px;
   float: left;
   width: 25%;
+  transition: .5s;
 }
 
 div.musicgallery {
   margin-top: 30px;
   float: left;
   width: 33%;
+  transition: .5s;
 }
 
 div.desc {
@@ -167,6 +170,7 @@ div.books img {
   width: 110px;
   height: auto;
   border: 5px solid #d1dbfe;
+  transition: .5s;
 }
 
 div.text {
