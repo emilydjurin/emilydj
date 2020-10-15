@@ -105,6 +105,7 @@ li {
 a {
   color: white;
   text-decoration: none;
+  transition: .5s;
 }
 ul a:hover {
   color: #6445bc;
