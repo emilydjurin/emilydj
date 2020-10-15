@@ -201,6 +201,7 @@ div.middle {
   width: 90px;
   text-align: center;
   text-decoration: none;
+  transition: 1s;
 }
 
 .fa:hover {
