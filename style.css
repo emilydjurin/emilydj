@@ -13,15 +13,13 @@ header img {
 }
 
 div.center {
-  margin: 0 auto;
-  width: 75%;
+  text-align:center;
 }
 
 div.filmgallery {
-  margin: 20px;
-  float: left;
-  width: 300px;
-  text-align: center;
+  float: right;
+  width: 33%;
+  margins: 0;
 }
 
 div.bookgallery {
