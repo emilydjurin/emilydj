@@ -73,7 +73,7 @@ div.bookgallery:hover {
   transform: scale(1.05);
 }
 
-div.books:hover {
+div.books:hover img{
   transform: scale(1.05);
 }
 
@@ -170,7 +170,6 @@ div.books img {
   width: 110px;
   height: auto;
   border: 5px solid #d1dbfe;
-  transition: .5s;
 }
 
 div.text {
@@ -264,6 +263,7 @@ div.playing {
   vertical-align: middle;
   width: 65%;
   border: 5px solid #d1dbfe;
+  transition: .5s;
 }
 
 .imgblock {
