@@ -2,19 +2,8 @@ body {
   font-family: TimesNewRoman;
   background: #7cb9e8; 
   text-align: center;
-  animation: fadeInAnimation ease 5s 
-  animation-iteration-count: 1; 
-  animation-fill-mode: forwards;
 }
 
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
-} 
 header img {
       margin: 40px 0px 0px 0px;
       border: 10px solid #d1dbfe;
@@ -23,8 +12,12 @@ header img {
       height: auto;
 }
 
-div.centerbook {
-  align: center;
+
+
+
+div.center {
+  margin: 0 auto;
+  width: 75%;
 }
 
 div.filmgallery {
@@ -203,4 +196,18 @@ div.middle {
 .musicgallery:hover .middle {
   opacity: 1;
 }
+
+.fa {
+  margin: 30px;
+  padding: 10px;
+  font-size: 45px !important;
+  width: 90px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  font-size: 50px !important;
+}
+
 
