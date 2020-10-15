@@ -170,6 +170,7 @@ div.books img {
   width: 110px;
   height: auto;
   border: 5px solid #d1dbfe;
+  transition: .5s;
 }
 
 div.text {
